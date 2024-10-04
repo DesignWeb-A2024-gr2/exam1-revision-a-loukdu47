@@ -20,6 +20,9 @@
  html {
      scroll-behavior: smooth;
 }
+#caca {
+    visibility: hidden;
+}
  body {
      color: #666666;
      font-size: 14px;
@@ -54,6 +57,7 @@
  h2 {
      font-size: 22px 
 }
+
  h3 {
      font-size: 18px 
 }
@@ -874,13 +878,11 @@
      position: relative;
      border-bottom: solid #eee 1px;
 }
- .main-menu ul>li .sub-down li a::before {
-}
+
  .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
- .main-menu ul>li .sub-down li a:hover::before {
-}
+
  .main-menu ul li:first-child {
      margin-left: 0;
     
